@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CUSTOMER" directorySegmentName="seg_0" id="E19D594B-736B-366A-ED18-8E7B77AB4F95">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Last_name" id="187845A7-C1AA-2660-7485-D5A163805951">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNI" id="43B763D0-C5A8-3068-D515-47C018BD24FC">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="last_surname" id="96BB6C02-291C-984B-6C8A-DF26FE62350B">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_surname" id="9D843CFE-193A-E4C4-0213-0F7138A67AA6">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="CCBC7054-AA68-D452-B53B-E84AAF2E0669">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="E177F696-A859-E83D-AC2D-0A0D59CFEACF">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_PK" id="46018913-EA19-085D-B1FF-BCEB2E10E234">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

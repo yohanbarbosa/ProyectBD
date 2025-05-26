@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6D21906-53AE-C36B-4691-FF23708FA196" name="SUPPLIER">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:42:47 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIT" id="86F2DCEB-9A2A-89A2-E1D4-1F4AC974E552">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:43:01 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name_supplier" id="7EE8277D-CCE6-1B8C-8D89-0F439878CF8D">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:43:30 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telephone" id="3E5BCFAA-4116-A78E-F2D6-14E5A7F7BB21">
+<createdBy>DELL</createdBy>
+<createdTime>2025-04-09 13:36:16 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="935787B5-DBC0-7E01-4E60-6F71E12C518E">
+<createdBy>DELL</createdBy>
+<createdTime>2025-04-09 13:36:44 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="FF06A914-264F-8EDB-19A3-BD31FDCCE874">
+<createdBy>SCIA26</createdBy>
+<createdTime>2025-05-23 14:39:54 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2ACD2F57-5420-A04E-8C1E-E10E712AFC27" name="SUPPLIER PK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:43:27 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86F2DCEB-9A2A-89A2-E1D4-1F4AC974E552</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

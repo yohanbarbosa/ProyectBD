@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF3FFD5A-9D81-9BE7-71B6-7A5D2F4E95B5" name="SUPPLIER">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>A6D21906-53AE-C36B-4691-FF23708FA196</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIT" id="5E4F335B-713D-B518-30E7-C57AB01FE2F8">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>86F2DCEB-9A2A-89A2-E1D4-1F4AC974E552</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_supplier" id="085B7FBF-93B4-0720-5708-87628FB0A1C6">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>7EE8277D-CCE6-1B8C-8D89-0F439878CF8D</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telephone" id="57FFC5EC-6B3A-63BE-A15C-81CFCE2516CB">
+<createdBy>DELL</createdBy>
+<createdTime>2025-04-09 13:47:11 UTC</createdTime>
+<generatorID>3E5BCFAA-4116-A78E-F2D6-14E5A7F7BB21</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="53FEA98F-E372-5F2B-3D28-93C033269D17">
+<createdBy>DELL</createdBy>
+<createdTime>2025-04-09 13:47:11 UTC</createdTime>
+<generatorID>935787B5-DBC0-7E01-4E60-6F71E12C518E</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="25AC3E16-6FC5-2628-DCEC-A78669322BBA">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-23 20:27:30 UTC</createdTime>
+<generatorID>FF06A914-264F-8EDB-19A3-BD31FDCCE874</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F374B865-C829-56C5-8780-191671339FCD" name="SUPPLIER_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>2ACD2F57-5420-A04E-8C1E-E10E712AFC27</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E4F335B-713D-B518-30E7-C57AB01FE2F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

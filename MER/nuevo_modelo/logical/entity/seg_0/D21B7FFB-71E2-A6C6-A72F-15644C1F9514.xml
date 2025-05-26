@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D21B7FFB-71E2-A6C6-A72F-15644C1F9514" name="PRODUCT">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:38:06 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_product" id="D81D898D-5FBB-39C5-B2C0-13581D3494DD">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:38:14 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name_product" id="6EBE6D78-FC53-1FC4-3CA7-48D5624A8205">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:38:47 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="45837D20-870A-FF62-A635-0CF9A7DA390F">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 22:48:40 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product_value" id="8D740F92-13DE-C98A-3C33-36F82842DCC0">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:39:14 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="D6DE89BA-CE17-D59E-483E-F9324A46BFB7">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 20:00:00 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_category" id="5648A1D2-DC3D-9ECD-38DD-713CF837412C">
+<createdBy>DELL</createdBy>
+<createdTime>2025-04-09 13:44:29 UTC</createdTime>
+<generatorID>82705F40-BC05-C581-4EFF-4AC60CEF809B</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<referedAttribute>5873593C-68A6-5C5E-F996-D77CDDDE9350</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ordinal" id="2E9CA349-62D4-962D-4D0A-47D93525A18D">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 22:41:42 UTC</createdTime>
+<generatorID>942F5585-93E6-BBD3-33CD-39C0F9239029</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<referedAttribute>F4AFF8B2-8201-5C84-87CB-DB373D6A5D26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="consecutive" id="3902AF30-42D2-DDB6-2BB2-513514C44468">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 22:42:13 UTC</createdTime>
+<generatorID>942F5585-93E6-BBD3-33CD-39C0F9239029</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<referedAttribute>040B672D-08C1-CAA1-2E54-881866BC825B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="origin" id="2C28DD24-0323-AB74-F42A-A3CBB284CF09">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 22:49:43 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED278B6B-B729-35C4-48A9-0DCD09C74C48" name="PRODUCT PK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:38:51 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D81D898D-5FBB-39C5-B2C0-13581D3494DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

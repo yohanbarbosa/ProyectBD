@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7820A702-7E90-EA79-3466-90F9EFC25D97" name="SALE">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:30:28 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Consecutive" id="70F830AE-B4A1-E703-CA3E-E57004ED7B6E">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:30:57 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sale_date" id="0A595476-1628-F216-5EBB-0505077DBF2F">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:31:30 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="55AD0077-9F24-F1DF-EFA0-58BAF7C16E08">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:35:13 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_employee" id="D1981D6E-E57E-D01B-BE7E-5FC66B23C44E">
+<createdBy>DELL</createdBy>
+<createdTime>2025-04-09 13:40:49 UTC</createdTime>
+<generatorID>46F8FF42-B971-E169-ED80-A54697610753</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<referedAttribute>88EB3EA6-9DEC-B545-6F2E-BC6474A0FAD4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI1" id="4C95DA56-C7D2-0F9F-73D7-34EA51F04980">
+<createdBy>SCIA26</createdBy>
+<createdTime>2025-05-23 14:38:09 UTC</createdTime>
+<generatorID>AF9524E4-855A-48AD-7248-3609FF0A630F</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<referedAttribute>6D4E382C-44FC-2D90-17BD-946E44878FE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descount" id="426B8259-68A8-C787-B406-99E96D816163">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 22:39:31 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ordinal" id="C33F5B19-2BB2-3B54-EA03-3210FB5D9B5F">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 22:41:42 UTC</createdTime>
+<generatorID>1F7B9D4A-C4DE-2324-E6C5-D3314D585D1D</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<referedAttribute>F4AFF8B2-8201-5C84-87CB-DB373D6A5D26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="consecutive1" id="03BBEBB5-09E0-3959-BD3E-901F195B3919">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 22:42:13 UTC</createdTime>
+<generatorID>1F7B9D4A-C4DE-2324-E6C5-D3314D585D1D</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="true"/>
+</engineerTo>
+<referedAttribute>040B672D-08C1-CAA1-2E54-881866BC825B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3890A779-A84D-3892-E44C-4273058EB3C4" name="SALE PK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:31:26 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E5DA9B4A-746F-BED8-0F2D-CC3D86695B7E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70F830AE-B4A1-E703-CA3E-E57004ED7B6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

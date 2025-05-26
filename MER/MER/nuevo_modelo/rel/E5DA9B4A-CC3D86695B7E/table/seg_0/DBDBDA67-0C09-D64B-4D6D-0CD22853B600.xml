@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBDBDA67-0C09-D64B-4D6D-0CD22853B600" name="SALE_DETAIL">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>3CDD15F0-8FDA-5B52-9410-F26A8848C00D</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<ordsAlias>sale_detal</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="consecutive" id="0E431548-63A2-214F-5191-875BD7C94012">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>040B672D-08C1-CAA1-2E54-881866BC825B</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38B95B8E-B9AB-5866-335A-020872661206" referredColumn="8D2F9788-FC61-7697-BD5D-84C3251A8305"/>
+</associations>
+</Column>
+<Column name="ordinal" id="E2D2206E-4EFD-5D9A-807D-F404F67E664F">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-23 20:35:52 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_product" id="B959791D-E9FB-E6B7-CEF1-9D3FDAE208D5">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-23 20:51:30 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4853A9ED-AF26-ECAC-89F1-269C9E9826C5" referredColumn="37AC6566-7CAC-7031-3142-EBF30B70D856"/>
+</associations>
+</Column>
+<Column name="quantity" id="9A5EBDDD-9192-C952-798F-3730BF262C85">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>88BE0A4D-5E6D-C390-28C3-A05E30607E3D</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sale_price" id="666D7CD6-F92C-EEE5-570B-5FC37A43E57F">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>5228521D-93A4-3A7B-A281-CD55EA39820F</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="404E9028-B205-6C7C-4B07-903CCDA7A3DF">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>737D76CD-4269-C412-F5F8-AA6150D8FC46</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC55301F-32AA-1213-2BDC-CDB1B31B267D" name="SALE_DETAL_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>C95C2A1E-77D0-18F6-1AAE-F5803836B4EB</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E431548-63A2-214F-5191-875BD7C94012"/>
+<colUsage columnID="E2D2206E-4EFD-5D9A-807D-F404F67E664F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FA11AF7-BBC8-7864-1E9E-66042F178297" name="SALE_DETAL_SALE_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-23 20:25:34 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E431548-63A2-214F-5191-875BD7C94012"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DD66992-D973-8205-2453-B5FC1DA86ED5" name="SALE_DETAIL_PRODUCT_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-23 20:51:30 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B959791D-E9FB-E6B7-CEF1-9D3FDAE208D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

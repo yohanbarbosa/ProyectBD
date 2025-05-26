@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBDBDA67-0C09-D64B-4D6D-0CD22853B600" name="SALE_DETAL">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>3CDD15F0-8FDA-5B52-9410-F26A8848C00D</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="consecutive" id="ABA7EF49-537B-5E1B-26AE-034375F105D6">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:05:41 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0573FA18-9358-1F56-263F-0EF1BD7BD38C" referredColumn="8D2F9788-FC61-7697-BD5D-84C3251A8305"/>
+</associations>
+</Column>
+<Column name="ordinal" id="F5F5D8CE-BC72-2352-9BFA-DECDDFBBCAD8">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<generatorID>F4AFF8B2-8201-5C84-87CB-DB373D6A5D26</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="9A5EBDDD-9192-C952-798F-3730BF262C85">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>88BE0A4D-5E6D-C390-28C3-A05E30607E3D</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="404E9028-B205-6C7C-4B07-903CCDA7A3DF">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>737D76CD-4269-C412-F5F8-AA6150D8FC46</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sale_price" id="666D7CD6-F92C-EEE5-570B-5FC37A43E57F">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>5228521D-93A4-3A7B-A281-CD55EA39820F</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descount" id="37B4952B-49E7-2E89-71BB-AB0CD21378F5">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 01:18:36 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_product" id="2235135A-7B6F-534F-F61C-DEC95E115910">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<generatorID>677E0FC0-0F0C-C3E5-FFE3-76BA71CE0DAE</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62937A73-8C88-AF78-1F6C-32B4DF1E0B4D" referredColumn="37AC6566-7CAC-7031-3142-EBF30B70D856"/>
+</associations>
+</Column>
+<Column name="vl_descount" id="C4996763-95FC-C00C-9F2B-8D2C7EB886AB">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<generatorID>0F8023EC-822D-F455-BEA7-C976EA8EC395</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC55301F-32AA-1213-2BDC-CDB1B31B267D" name="SALE_DETAL_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>C95C2A1E-77D0-18F6-1AAE-F5803836B4EB</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5F5D8CE-BC72-2352-9BFA-DECDDFBBCAD8"/>
+<colUsage columnID="ABA7EF49-537B-5E1B-26AE-034375F105D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79E79977-63F0-105B-5BA1-9156E3224212" name="SALE_DETAL_SALE_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<generatorID>1F7B9D4A-C4DE-2324-E6C5-D3314D585D1D</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABA7EF49-537B-5E1B-26AE-034375F105D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="434217E0-EF66-FBEB-91BB-1BE2F7077DB8" name="SALE_DETAL_PRODUCT_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:22:02 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2235135A-7B6F-534F-F61C-DEC95E115910"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

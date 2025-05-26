@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="AUDIT_PRODUCT" directorySegmentName="seg_0" id="68D65178-52F7-BD03-846A-32F48E0C5405">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="odl_stock" id="216949E2-28CE-86F2-D430-5FB74628D5A3">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="old_price" id="5D6E26A6-97C4-EE9D-785E-141CE060FD8E">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_audit" id="702E4630-2C9E-30AF-E7BF-C7E0DF3B81ED">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="new_price" id="73952543-C3CB-9E0E-DB24-898BB6450D18">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_product" id="904ACA52-B05C-7C4D-6444-61FCCF06F467">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="new_stock" id="C02920C2-B315-FA94-1095-65CCA3CEDF2D">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="changed_at" id="E87208A2-053E-D971-9585-5DBAD9BD1BBC">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="action_type" id="FD1BB2D7-0964-781F-83FA-9103516630EF">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AUDIT_PRODUCT_PK" id="836B45D4-6A17-10F0-8CAC-4C01D45EE3CC">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

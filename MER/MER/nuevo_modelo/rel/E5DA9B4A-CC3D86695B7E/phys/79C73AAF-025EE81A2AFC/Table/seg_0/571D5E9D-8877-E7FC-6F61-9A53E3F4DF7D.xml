@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="BUY_DETAIL" directorySegmentName="seg_0" id="571D5E9D-8877-E7FC-6F61-9A53E3F4DF7D">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_product" id="26C392D7-DCA6-908A-A921-F7A0B4077FDE">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ordinal" id="5A3177B0-7E94-55D1-BED4-55CBFD714F9E">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-23 21:09:12 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="subtotal" id="726EAE75-8E58-2FCD-2175-38EF1F9A3E37">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="consecutive" id="A38B37E5-51D7-43E5-5E3D-E2D39C383CFB">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="quantity" id="B1119D36-5030-A830-20E1-35C088A3A5E0">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="buy_price" id="E6195E07-8F32-598D-53B9-AD0A3CB069DF">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BUY_DETAIL_BUY_FK" id="9E829503-2AB6-4DF6-C286-A2592293FAEC">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-23 21:15:40 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BUY_DETAIL_BUY_FKv1" id="C396B0F4-1F25-483D-EDA7-5860686D4320">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BUY_DETAIL_PK" id="BDD6B344-079C-EB78-C42A-7365149498AB">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

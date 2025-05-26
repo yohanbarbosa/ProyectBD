@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="nuevo_modelo" id="2FAF6264-4671-613C-C1B2-A7609215DE54" version="3.5">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-24 19:25:59 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2FAF6264-4671-613C-C1B2-A7609215DE54</designId>
+</OSDM_Design>

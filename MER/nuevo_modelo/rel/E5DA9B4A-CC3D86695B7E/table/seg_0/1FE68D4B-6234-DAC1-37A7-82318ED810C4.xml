@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FE68D4B-6234-DAC1-37A7-82318ED810C4" name="SALE">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>7820A702-7E90-EA79-3466-90F9EFC25D97</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Consecutive" id="8D2F9788-FC61-7697-BD5D-84C3251A8305">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>70F830AE-B4A1-E703-CA3E-E57004ED7B6E</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sale_date" id="44BC3623-5015-71C4-4348-9667065D0184">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>0A595476-1628-F216-5EBB-0505077DBF2F</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="18E13700-95BA-C303-1961-1E922C62E2D8">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>55AD0077-9F24-F1DF-EFA0-58BAF7C16E08</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_employee" id="A9122400-696C-95F8-874D-64DEDB7D8735">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>83AF6056-097F-B84A-EA9C-09ABFC1D1A38</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F000B79-D227-7FD6-1F0C-6F55EAA78DBD" referredColumn="9C93B886-D96B-F88A-D3B3-8F536792D663"/>
+</associations>
+</Column>
+<Column name="DNI" id="59C5016E-7DCB-6C8E-94E8-996662AA2965">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:13:42 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD95C4F1-CB3E-5729-94B7-64A47658E13A" referredColumn="43B763D0-C5A8-3068-D515-47C018BD24FC"/>
+</associations>
+</Column>
+<Column name="descount" id="42CD1E16-98CD-AD85-91B6-79C3F70DD4CD">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-25 23:01:46 UTC</createdTime>
+<generatorID>426B8259-68A8-C787-B406-99E96D816163</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="250D1C26-886F-3E7C-EC62-BDA686D0A5ED" name="SALE_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>3890A779-A84D-3892-E44C-4273058EB3C4</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D2F9788-FC61-7697-BD5D-84C3251A8305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACFC9F6F-A952-C574-B684-D77A66F124F7" name="SALE_CUSTOMER_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>AF9524E4-855A-48AD-7248-3609FF0A630F</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59C5016E-7DCB-6C8E-94E8-996662AA2965"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9CD48E3-EC53-BAD9-0831-977B1EDBF6DE" name="SALE_EMPLOYEE_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-03-27 15:11:24 UTC</createdTime>
+<generatorID>46F8FF42-B971-E169-ED80-A54697610753</generatorID>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9122400-696C-95F8-874D-64DEDB7D8735"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

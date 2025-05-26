@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DBC5243E-958A-4081-3682-A5C7A21DB733" containerWithKeyObject="96DB638D-6811-3F72-675C-6CDE377515EF" localFKIndex="CE25731D-C3C0-EEA0-0C80-FBF4D4181782" name="PRODUCT_SUPPLIER_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2025-05-23 20:55:45 UTC</createdTime>
+<ownerDesignName>nuevo_modelo</ownerDesignName>
+<referredTableLongName>SUPPLIER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF3FFD5A-9D81-9BE7-71B6-7A5D2F4E95B5</referredTableID>
+<keyObject>F374B865-C829-56C5-8780-191671339FCD</keyObject>
+<referredKeyID>F374B865-C829-56C5-8780-191671339FCD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
